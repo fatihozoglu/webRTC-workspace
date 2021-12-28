@@ -1,5 +1,5 @@
-import { getConnectedDevices } from "./getConnectedDevices";
-import { openMediaDevices } from "./openMediaDevices";
+import { getConnectedDevices } from "../getConnectedDevices";
+import { openMediaDevices } from "../openMediaDevices";
 
 const cameras = getConnectedDevices("videoinput");
 
