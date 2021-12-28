@@ -14,10 +14,18 @@ As explained in [MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_AP
 
 > "WebRTC (Web Real-Time Communication) is a technology that enables Web applications and sites to capture and optionally stream audio and/or video media, as well as to exchange arbitrary data between browsers without requiring an intermediary. The set of standards that comprise WebRTC makes it possible to share data and perform teleconferencing peer-to-peer, without requiring that the user install plug-ins or any other third-party software. WebRTC consists of several interrelated APIs and protocols which work together to achieve this."
 
+Some of the use cases of WebRTC Technology:
+
+- Creating web apps which uses camera and microphone
+- Video calling and video conference applications
+- Screen sharing applications
+- File exchange/transfer applications
+
 ### Useful resources
 
 - [WebRTC Official Website](https://webrtc.org/getting-started/overview)
 - [MDN WebRTC API](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
+- [WebRTC Adapter](https://github.com/webrtc/adapter/)
 
 ## Author
 
