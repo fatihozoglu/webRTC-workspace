@@ -1,5 +1,5 @@
 // Openning media devices
-const openMediaDevices = async (constraints) => {
+export const openMediaDevices = async (constraints) => {
   return await navigator.mediaDevices.getUserMedia(constraints);
 };
 

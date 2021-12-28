@@ -1,7 +1,7 @@
 //Get 'audioinput'/'audiooutput'/'videoinput' kind devices
-const getConnectedDevices = async (type) => {
+export const getConnectedDevices = async (type) => {
   const devices = await navigator.mediaDevices.enumerateDevices();
-  return devices.filter((device = device.kind === type));
+  return devices.filter((device) => device.kind === type);
 };
 
 // Get video cameras
